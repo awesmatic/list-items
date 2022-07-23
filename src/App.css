@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.inputList {
+  display: flex;
+  justify-content: space-around;
+  margin: 2em;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  margin: 2em;
+}
+
+.button {
+  height: 4em;
+  width: 6em;
+}
+.computeButton {
+  height: 4em;
+  width: 10em;
+}
+
+.items {
+  display: flex;
+  justify-content: space-around;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .list {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+  }
+  .inputList {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+  }
+  .textfield {
+    display: flex;
+    margin: 0.5em;
+  }
+  .items {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+  }
+  .box {
+    height: auto;
+  }
+}
